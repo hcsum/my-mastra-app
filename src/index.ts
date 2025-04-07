@@ -1,7 +1,7 @@
 import { mastra } from "./mastra";
 
 async function main() {
-  const agent = mastra.getAgent('researchAgent');
+  const agent = mastra.getAgent('wegicAgent');
 
   // Basic query about concepts
   const query1 = "What problems does sequence modeling face with neural networks?";
